@@ -18,7 +18,7 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 <br>Third Pass: Compare 10 with 1 and 23. Since 10 is greater than 1 and smaller than 23, insert 10 between 1 and 23.<br>
 <br>The sorted part until the 2nd index is [1, 10, 23].<br>
 <br>Continue this process for the remaining elements.<br>
-<br>As number of passes are 3 for an Array of 4 elements.Thus outer loop round will go from 0 to n-1.<br>
+<br>As number of passes are 4 at max for an Array of 5 elements.Thus outer loop round will go from 0 to n-1.<br>
 <br>Here as we are comparing the new element entering from unsorted to sorted Array and swapping them if arr[i]>arr[i+1]<br>
 <br>So,we need to use a loop int i,from round-1 to 0 such that if arr[i]>arr[i+1] is only there then only swapping can be done.We can do it using both for and while loops.<br>
 </p>
